@@ -53,12 +53,6 @@ button {
   padding: 0;
 }
 
-.task-list__item,
-.title {
-  list-style: none;
-}
-
-
 .task__btn {
   background: none;
   border: 0;
@@ -119,6 +113,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
 }
 
 .task-list__item > * {
